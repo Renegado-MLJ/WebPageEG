@@ -131,3 +131,46 @@ p{
 .pricing-column{
   padding: 3% 2%;
 }
+
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+}
+
+/* Call to action */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.donwload-btn{
+  margin: 3% 1%;
+}
+
+/* footer */
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 10% 5%
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
